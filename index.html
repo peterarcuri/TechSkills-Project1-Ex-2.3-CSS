@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+      
+
+      <link rel="stylesheet" href="style.css">
+      <title>A Digital CV</title>
+    </head>
+    
+  <body>    
+    
+    <!-- Header Section including: Profile Picture, Summary(greeting) -->
+ 
+
+      
+        <header>         
+
+          <div class="header-container">
+
+            <div class="profilePic-container">
+              <img id="profilePic" src="images/profilepic2 (1) 2.jpg" alt="profile picture of Peter Arcuri holding a coffee mug">
+            </div>  
+
+            <div id="greeting">
+              <h1>Peter Arcuri</h1>
+              <h4>
+                "Aspiring software engineer seeking opportunity to expand my skills while facilitating company growth."
+              </h4>        
+            </div>      
+
+            <!-- Contact section -->   <!-- Links to my Github and Linkedin Pages -->
+
+            <div id="contact">
+              <h3>Email: <a href="mailto:peterarcuri@gmail.com">peterarcuri@gmail.com</a> / Phone: (727) 247-9322</h3>
+              <p id="connect">Let's connect!! Find me on:</p>
+              <a href="https://www.linkedin.com/feed/"><img id="linkedinLogo" src="images/Linkedin Logo.png" alt="Linkedin logo"></a>
+              <a href="https://github.com/peterarcuri"><img id="githubLogo" src="images/Github logo.png" alt="Github logo"></a>
+            </div>
+  
+          </div>
+
+        </header>
+
+      </div>
+      
+
+    <main>
+      <!-- Education Section (Table)-->
+      <div class="educationContainer">
+
+        <section id="education">
+
+          <table>
+            <caption>Education:</caption>
+           
+              <tr>
+                <th colspan="4"><u>Institution</u></th>
+                <th colspan="3"><u>Degree / Certification</u></th>
+                <th colspan="3"><u>Date(s) Attended</u></th>
+              </tr>
+        
+    
+            <tbody>
+              <tr>
+                <td colspan="4">University of South Florida</td>
+                <td colspan="3">Software Engineering Bootcamp</td>
+                <td>(Currently Attending)</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Zero to Mastery Academy</td>
+                <td colspan="3">Web Development Bootcamp</td>
+                <td>(2023 - 2024)</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Angela Yu</td>
+                <td colspan="3">Complete Web Development Bootcamp</td>
+                <td>2024</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Pasco Hernando State College</td>
+                <td colspan="3">Associate in Arts: General Studies</td>
+                <td>2000</td>
+              </tr>
+    
+              <tr>
+                <td colspan="4">Central Florida Institute</td>
+                <td colspan="3">Associate in Science: Diagnostic Medical Sonography</td>
+                <td>(2007-2008)</td>
+              </tr>
+            </tbody>
+    
+          </table>           
+        </section>
+
+      </div>
+
+      <!-- Technologies Section (lists) -->
+      <div class="technologyContainer">        
+        <section id="technology">
+
+          <h2>Technologies:</h2>
+
+          <div class="skillsbarContainer">
+
+            <div class="skill-box">
+              <span class="title">HTML</span>
+
+              <div class="skill-bar">
+                <span class="skill-per html">
+                  <span class="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">CSS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per css">
+                  <span class="tooltip">70%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">Javascript</span>
+
+              <div class="skill-bar">
+                <span class="skill-per javascript">
+                  <span class="tooltip">40%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">NodeJS</span>
+
+              <div class="skill-bar">
+                <span class="skill-per nodejs">
+                  <span class="tooltip">10%</span>
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+
+      <!-- Project Section  -->     
+
+      <section id="projects">
+        
+        <h2 id="project-title">Projects:</h2>
+
+        <div class="card-container">            
+          
+          <div class="card">
+            <img src="images/Aurora hotel image.png" alt="">
+            <div class="card-content">
+              <h5>Aurora Hotel</h5>
+              <p>View the northern lights from a glass igloo</p>
+              <a href="https://peterarcuri.github.io/aurorahotelproject/" target="_blank" class="projectBtn">Book Today</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="images/tindogImage.png" alt="">
+            <div class="card-content">
+              <h5>Aurora Hotel</h5>
+              <p>A re-creation of Tinder but for K9 companionship</p>
+              <a href="https://peterarcuri.github.io/Tindog/" target="_blank" class="projectBtn">TinDog</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="images/LandingPageImage.png " alt="">
+            <div class="card-content">
+              <h5>Aurora Hotel</h5>
+              <p>View the northern lights from a glass igloo</p>
+              <a href="https://peterarcuri.github.io/startup-of-the-year/" target="_blank" class="projectBtn">Startup</a>
+            </div>
+          </div>       
+
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+
+    <section class="contact">
+
+      <div class="contact-container">
+
+        <div class="col1"><img src="images/Address photo card.png" alt=""></div>  
+  
+        <div class="col2">
+          <form  action="#" class="form-area">
+    
+            <h2>Contact:</h2>
+    
+            <label for="name">Name:</label>
+              <input type="text" name="name" placeholder="Enter your name" required><br>
+        
+            <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+        
+            <label for="phone">Phone:</label>
+              <input type="tel" name="phone" id="phone" placeholder="Enter your phone"><br>
+            
+        
+            <label for="organization">Organization: </label>
+              <input type="text" name="name" placeholder="Facebook"><br>
+           
+        
+            <label for="role">Role:</label>
+              <input type="text" name="name" placeholder="Web Developer"><br>
+            
+      
+            <label for="reason for contact">Reason for Contact:</label>
+              <select name="reason for contact">
+                <option value="">--Reason for Contact--</option>
+                <option value="job offers">Job Offers</option>
+                <option value="collaborations">Collaborations</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            <br><br>
+      
+            <label for="method of contact">--Method of contact--</label><br><br>      
+           
+              <input class="radio" type="radio" name="method of contact" value="phone"> 
+              <label> 📱 Phone</label>            
+      
+             <br>
+            
+              <input class="radio" type="radio" name="method of contact" value="email">    
+              <label> 📧 Email</label>
+            
+            <br>            
+            
+              <input class="radio" type="radio" name="method of contact" value="text">
+              <label> 📘 Text</label>
+            <br>
+            <br><br>      
+      
+            <label for="message">Message:</label><br><br>
+              <textarea text-align="left" name="message" id="message" cols="70" rows="6" minlength="3" maxlength="275">Please enter your message here</textarea><br>
+            <br>
+
+            <button type="submit" class="projectBtn">Submit</button>
+      
+          </form>    
+        </div>
+  
+      </div>
+
+    </section>    
+
+    </main>
+
+  <!-- footer section -->
+
+    <footer><sup>&#169;</sup> 2024 Peter Arcuri (Web Developer)</footer>
+
+  </body>
+</html>
